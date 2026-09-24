@@ -16,10 +16,20 @@
     text-transform: uppercase;
     color: var(--cor-p5);
     font: 600 1.125rem/1.35 'Poppins', sans-serif;
+    max-width: max-content;
 }
 
 .btn:hover {
     background: linear-gradient(#ffb60b, #e59317 );
+}
+
+.btn.secundario {
+    background: var(--cor-10);
+    color: var(--cor-2);
+}
+
+.btn.secundario:hover {
+    background: var(--cor-9);
 }
 
 .link {
@@ -45,5 +55,31 @@
     .btn {
         padding: 12px 16px;
         font-size: 1rem;
+    }
+}
+
+
+/* titulos internas */
+
+.titulo-bg {
+    background: var(--cor-11);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.titulo p {
+    margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+    .titulo-bg {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .titulo p {
+        font-size: 1rem;
+        font-weight: 400;
+        text-transform: lowercase;
     }
 }

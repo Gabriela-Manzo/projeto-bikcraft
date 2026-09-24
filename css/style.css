@@ -14,3 +14,12 @@
 
 /* Bicicletas */
 @import "./bicicletas/bicicletas-lista.css";
+
+/* Seguros */
+@import "./seguros/seguros.css";
+
+/* Footer */
+@import "./global/footer.css";
+
+/* Termos */
+@import "./termos/termos.css"
