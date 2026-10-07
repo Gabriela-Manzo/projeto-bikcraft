@@ -15,13 +15,13 @@
 }
 
 .contatos-dados {
-    background: var(--cor-12);
+    background: var(--cor-12) url("../../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
     border-radius: 5px 0 0 5px;
 }
 
 .contatos-formulario {
-    background: var(--cor-0);
     border-radius: 0 5px 5px 0;
+    background: var(--cor-0) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
 }
 
 .contatos-dados h2 {
@@ -54,12 +54,12 @@
 }
 
 .contatos-meios a:nth-child(2) {
-    margin-bottom: 32px;
+    margin-bottom: 20px;
 }
 
 .contatos-meios a:nth-child(3) {
     background: url(../../img/icones/telefone.svg) no-repeat 0px 2px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .contatos-redes {
@@ -80,6 +80,7 @@
 
     .contatos-dados {
         border-radius: 5px 5px 0 0;
+        background: var(--cor-12);
     }
 
     .contatos-formulario {
