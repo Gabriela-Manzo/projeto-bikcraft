@@ -12,6 +12,7 @@
 /* Utilidades */
 @import "./utils/componentes.css";
 @import "./utils/formulario.css";
+@import "./utils/animacao.css";
 
 
 /* Bicicletas */
@@ -39,4 +40,4 @@
 @import "./global/footer.css";
 
 /* Termos */
-@import "./termos/termos.css"
+@import "./termos/termos.css";
